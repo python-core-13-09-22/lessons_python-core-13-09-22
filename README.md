@@ -1,1 +1,3 @@
-# lessons_python-core-13-09-22
+#  core-13-09-22
+hdsvbjds 
+ vnsbd 
