@@ -1,9 +1,7 @@
-from gettext import find
-from itertools import count
 import this
 
 the_zen_of_Python = '''
-eautiful is better than ugly.
+Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
 Complex is better than complicated.
