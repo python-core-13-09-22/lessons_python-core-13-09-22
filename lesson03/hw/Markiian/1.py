@@ -8,7 +8,11 @@ x3 = pythonZen.count('is')
 x4 = pythonZen.upper()
 x5 = pythonZen.replace('and', '&')
 
-print(x1,x2,x3,x4,x5)
+# print(x1)
+# print(x2)
+# print(x3)
+# print(x4)
+# print(x5)
 
 # XXXX number
 
@@ -16,7 +20,7 @@ y=str(random.randrange(1000, 9999))
 y1=int(y[0])+int(y[1])+int(y[2])+int(y[3])
 y2=y[::-1]
 y3 = "".join(sorted (y))
-print(y,y1,y2,y3)
+# print(y,y1,y2,y3)
 
 # compare 2 
 a=random.randrange(0,5)
