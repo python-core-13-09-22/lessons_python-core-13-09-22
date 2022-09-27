@@ -29,20 +29,15 @@ while v != 5:
                   - newer: {w_new};
                   - is: {w_is}''')
     elif v == 3:
-
-
-
+        registr = data.upper()
+        print(registr)
+    elif v == 4:
+        print(data.replace('i', '&'))
     elif v == 5:
-        print('Гарного Вам настрою. До побачення !')
-                   
-
-
+        print('\nГарного Вам настрою. До побачення !\n')
     else:
         print('Будь ласка виберіть варіант зі списку')
 
 
     if v != 5:
         input('\nДля продовження введіть будь-який символ\n')
-
-
-
