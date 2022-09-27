@@ -37,10 +37,10 @@ x5 = pythonZen.replace('and', '&')
 # XXXX number
 
 y=str(random.randrange(1000, 9999))
-y1=int(y[0])+int(y[1])+int(y[2])+int(y[3])
+y1=int(y[0])*int(y[1])*int(y[2])*int(y[3])
 y2=y[::-1]
 y3 = "".join(sorted (y))
-# print(y,y1,y2,y3)
+print(y,y1,y2,y3)
 
 # compare 2 
 a=random.randrange(0,5)
