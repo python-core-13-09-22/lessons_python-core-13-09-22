@@ -27,7 +27,11 @@ if year.isdigit and month.isdigit and day.isdigit:
     else: 
         print("Someting wrong in data ")
 else:
+<<<<<<< HEAD
     print("Something is not nummber")
+=======
+    print("Something not nummber")
+>>>>>>> 405bba24ee53408a91513dd8cdceeb9e685b3bef
 
 #task3
 print("task 3")
@@ -54,7 +58,11 @@ if a.isdigit and b.isdigit and c.isdigit:
                 x=-b/2*a
                 print(f"Solution : x={x}")
 else:
+<<<<<<< HEAD
     print("Something is no number")
+=======
+    print("No number")
+>>>>>>> 405bba24ee53408a91513dd8cdceeb9e685b3bef
 
 #task4
 print("task 4")
@@ -72,7 +80,11 @@ if a.isdigit and b.isdigit and c.isdigit:
     else:
         print("triangle is impossible")
 else:
+<<<<<<< HEAD
     print("Something is no number")
+=======
+    print("No number")
+>>>>>>> 405bba24ee53408a91513dd8cdceeb9e685b3bef
 
 #task5
 print("task 5")
