@@ -86,6 +86,7 @@ while True:
             print("Це п'ятниця ")
         elif k % 7 == 6:
             print("Це субота ")
+        break
     else:
         print(" Ви ввели не правильне значення")
 
