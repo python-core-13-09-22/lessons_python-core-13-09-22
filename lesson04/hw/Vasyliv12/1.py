@@ -53,14 +53,44 @@ import math
 
 # Визначити, чи можна побудувати трикутник
 
-print("Введіть значення сторін трикутника\n")
-a = float(input("a = "))
-b = float(input("b = "))
-c = float(input("c = "))
+#print("Введіть значення сторін трикутника\n")
+#a = float(input("a = "))
+#b = float(input("b = "))
+#c = float(input("c = "))
+#
+#if a + b > c and a + c > b and b + c > a:
+#    p = a + b + c
+#    s = 0.5 * a * (a / 2 * (math.sqrt((p*(p - a)*(p - b)*(p - c)))))
+#    print(f"Трикутник може бути побудований: \nПериметр ={p} \nПлоща ={s} ")
+#else:
+#    print("Трикутник не може бути побудований. \nСорян...)")
 
-if a + b > c and a + c > b and b + c > a:
-    p = a + b + c
-    s = 0.5 * a * (a / 2 * (a / 2 * (math.sqrt((p*(p - a)*(p - b)*(p - c))))))
-    print(f"Трикутник може бути побудований: \nПериметр ={p} \nПлоща ={s} ")
-else:
-    print("Трикутник не може бути побудований. \nСорян...)")
+
+# Нехай `k`- ціле від `1` до `365`.
+
+while True:
+    k = input("Введіть номер дня в році: ")
+    if k.isdigit() and 1 <= int(k) <= 365:
+        k = int(k)
+        if k % 7 == 0:
+            print(" Це неділя ")
+        elif k % 7 == 1:
+            print("Це понеділок ")
+        elif k % 7 == 2:
+            print("Це вівторок ")
+        elif k % 7 == 3:
+            print("Це середа ")
+        elif k % 7 == 4:
+            print("Це четвер ")
+        elif k % 7 == 5:
+            print("Це п'ятниця ")
+        elif k % 7 == 6:
+            print("Це субота ")
+    else:
+        print(" Ви ввели не правильне значення")
+
+
+
+
+
+
