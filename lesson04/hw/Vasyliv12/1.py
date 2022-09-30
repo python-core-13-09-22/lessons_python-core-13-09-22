@@ -33,19 +33,34 @@ import math
 
 
 # визначити, чи має рівняння `ax2+bx+c=0` хоча б один дійсний корінь
+#a = float(input("a = "))
+#b = float(input("b = "))
+#c = float(input("c = "))
+
+#dis = b**2 - 4 * a * c
+#print(f"Дискримінант: {dis}")
+#if dis > 0:
+#    x1 = (-b + math.sqrt(dis)) / (2 * a)
+#   x2 = (-b - math.sqrt(dis)) / (2 * a)
+#    print(f"Дискримінант має 2 дійсних кореня: \nx1 = {x1} \nx2 = {x2}")
+#elif dis == 0:
+#    x = -b / (2 * a)
+#    print(f"Дискримінант має 1 дійсний корінь: \nx = {x}")
+#else:
+#    print("Дійсних коренів немає ")
+
+
+
+# Визначити, чи можна побудувати трикутник
+
+print("Введіть значення сторін трикутника\n")
 a = float(input("a = "))
 b = float(input("b = "))
 c = float(input("c = "))
 
-dis = b**2 - 4 * a * c
-print(f"Дискримінант: {dis}")
-if dis > 0:
-    x1 = (-b + math.sqrt(dis)) / (2 * a)
-    x2 = (-b - math.sqrt(dis)) / (2 * a)
-    print(f"Дискримінант має 2 дійсних кореня: \nx1 = {x1} \nx2 = {x2}")
-elif dis == 0:
-    x = -b / (2 * a)
-    print(f"Дискримінант має 1 дійсний корінь: \nx = {x}")
+if a + b > c and a + c > b and b + c > a:
+    p = a + b + c
+    s = 0.5 * a * (a / 2 * (a / 2 * (math.sqrt((p*(p - a)*(p - b)*(p - c))))))
+    print(f"Трикутник може бути побудований: \nПериметр ={p} \nПлоща ={s} ")
 else:
-    print("Дійсних коренів немає ")
-
+    print("Трикутник не може бути побудований. \nСорян...)")
