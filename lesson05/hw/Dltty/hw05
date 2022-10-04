@@ -1,0 +1,87 @@
+from random import randrange
+from curses.ascii import isdigit
+
+
+
+#TASK1
+x = int(randrange(0, 100))
+for _ in range(10):
+    random_value = int(input("value: "))
+    if random_value == x:
+        print("correct")
+        break
+    elif random_value < x:
+        print("write bigger value")
+    elif random_value > x:
+        print("write lower value")
+print(f"correct value is {x}")                    
+
+#TASK2
+i = 0
+for _ in range(10):
+    value = int(input("value: "))
+    if value.isdigit():
+        if value % 5 == 0:
+            i += 1
+    else:
+        print("write")
+print(f"numbers are multiples of 5 is {i}")  
+
+#TASK3
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+for i in numbers:
+    for j in numbers:
+        res = i * j 
+        print(f"{i} * {j} = {res}")
+
+#TASK4
+
+N = int(input("Side N: "))
+M = int(input("Side M: "))
+sym1 = " ї "
+sym2 = " ю "
+outside = N * sym1 
+print(outside)
+for _ in range(M - 2):
+    print(" ї", sym2 * (N - 2), "ї")
+print(outside)
+
+#TASK5 
+P = int(randrange(1, 100))
+H = int(randrange(1, 100))
+print(P, H)
+plus = 0
+multi = 1
+dia = 0
+for _ in range(10):
+    numb = int(input("number: "))
+    if  numb == P or numb == H:
+        break 
+    if numb < P:
+        plus += numb
+    elif numb > H:
+        multi *= numb
+    elif P > H:
+        if H < numb < P:
+            dia += 1
+    elif P < H:
+        if P < numb < H:
+            dia += 1           
+print(f"addition = {plus}, mult = {multi}, range = {dia} ")
+
+#TASK6
+plus = 0
+minus = 0
+
+while True:
+    value = int(input("value: "))
+    if value > 0:
+        plus += 1
+    elif value < 0:
+        minus += 1
+    else:
+         break
+
+print((plus * 100) / (plus + minus), "for +")
+print((minus * 100) / (plus + minus), "for -")
