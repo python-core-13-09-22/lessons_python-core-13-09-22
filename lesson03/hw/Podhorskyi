@@ -1,0 +1,46 @@
+#Записати в стрічку філософію Пайтона
+text='''Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!'''
+
+#Знайти в заданій стрічці кількість входжень слів (better, never, is)
+print(f"Word 'better' is repeated {text.count('better')} times.")
+print(f"\nWord 'never' is repeated {text.count('never')} times.")
+print(f"\nWord 'is' is repeated {text.count('is')} times.\n")
+
+#Вивести весь текст у верхньому регістрі (всі великі літери)
+print(text.upper())
+
+#Замінити всі входження символу “і” на “&”
+text.replace('i','&')
+
+#Задано чотирицифрове натуральне число
+x=str(1234)
+#Знайти добуток цифр цього числа
+print(int(x[0])*int(x[1])*int(x[2])*int(x[3]))
+#Записати число в реверсному порядку
+y=x[::-1]
+print(y)
+# Посортувати цифри, що входять в дане число
+print(sorted(x))
+# Поміняти між собою значення двох змінних, не використовуючи третьої змінної
+a=1
+b=2
+a, b=b, a 
+print(f"a={a}, b={b}")
