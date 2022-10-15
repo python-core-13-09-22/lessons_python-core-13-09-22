@@ -17,4 +17,3 @@ n = 4562
 x = [int(a) for a in str(n)]
 x.sort()
 print(x)
-

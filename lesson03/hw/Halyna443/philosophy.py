@@ -31,4 +31,18 @@ print(the_zen_of_Python.upper())
 
 # change a letter to simbol
 print(the_zen_of_Python.replace('i', '&'))      
-      
+
+
+# text = "There is never the end. Is it better "
+# print(f" origin text :{text}")
+# count = 0
+# l = []
+# l = text.split()
+# for i in range(len(l)):
+#     l[i] = l[i].lower()
+#     if l[i] == 'better' or l[i] == 'never' or l[i] == 'is':
+#         count += 1
+#     l[i] = l[i].replace('i', '&')
+#     l[i] = l[i].upper()
+# print(f"  There are {count}  better never or is words")
+# print(f"  The upper words with changes of i to & :", *l)
