@@ -103,25 +103,68 @@
 #
 # f()
 # print(MAX)
-print("glob", dir())
-def f1():
-    a1 = 1
-    print("f1")
 
-    def f2():
-        nonlocal a1
-        a2 = 2
-        a1 = 55
-        print("f2", a2, a1)
-        def f3():
-            a3 = 3
-            global a2
-            a2 = 555
-            print("f3")
-            print("f3 ", dir())
-        print("f2" , dir())
-        f3()
-    f2()
-    print("f1", a1,dir())
-f1()
-print("glob", dir())
+# print("glob", dir())
+# def f1():
+#     a1 = 1
+#     print("f1")
+#
+#     def f2():
+#         nonlocal a1
+#         a2 = 2
+#         a1 = 55
+#         print("f2", a2, a1)
+#         def f3():
+#             a3 = 3
+#             global a2
+#             a2 = 555
+#             print("f3")
+#             print("f3 ", dir())
+#         print("f2" , dir())
+#         f3()
+#     f2()
+#     print("f1", a1,dir())
+# f1()
+# print("glob", dir())
+
+# l = [(12,3,45,5,2),(22,3,4,56,2,3), (1,2,3), (999, 9999)]
+#
+# l.sort(key=lambda a: sum(a))
+# print(l)
+# print(dir())
+# def custom_sort(elements):
+#     return -sum(elements)
+#
+# custom_sort = lambda elements: -sum(elements)
+# l.sort(key=custom_sort)
+# print(l)
+# print(dir())
+#
+# f = lambda a,b,c:a+b+c
+# print(f(1,2,3))
+# def calc_factorial(x):
+#     if x == 1 or x == 0:
+#         return 1
+#     else:
+#         return x * calc_factorial(x - 1)
+#
+#
+# # 1*2*3*4*5*6*7*8
+#
+# print(calc_factorial(5))
+# print([(i, calc_factorial(i)) for i in range(10)])
+#
+# import sys
+# print(sys.getrecursionlimit())
+# sys.setrecursionlimit(2000)
+# print(calc_factorial(1000))
+#
+# def calc_factorial(5):
+#     if x == 1 or x == 0:
+#         return 1
+#     else:
+#         return 5*(4*(3*(2*1)))
+#
+# # 1,2,3,5,8,13...
+
+sum(ite)
