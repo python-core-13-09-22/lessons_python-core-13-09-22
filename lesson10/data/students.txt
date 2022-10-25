@@ -1,0 +1,257 @@
+xeioqwzpxw PMa12
+	fizra 47 Phone
+	matan 38 7 нога
+	informatics 97 Phone
+	informatics 17 4 рука
+	informatics 22 PC
+	matan 52 9 голова
+
+zgrlwslrmv PMi11
+	informatics 35 Phone
+	fizra 22 6 нога
+	informatics 34 Phone
+	matan 68 9 рука
+	matan 96 Phone
+	matan 61 2 голова
+	matan 89 PC
+
+
+hxojigpacc PMi11
+	informatics 9 PC
+	matan 31 5 нога
+	informatics 14 PC
+	matan 86 4 голова
+	matan 91 Phone
+
+kuosxinnlx PMi11
+	informatics 54 Phone
+	informatics 21 9 нога
+	matan 3 PC
+	informatics 97 4 нога
+	matan 61 Phone
+	fizra 54 3 рука
+	matan 81 Phone
+
+tvkhxevjhw PMi11
+	matan 44 Phone
+	informatics 64 8 рука
+	matan 59 PC
+	informatics 28 3 нога
+	fizra 93 PC
+	fizra 35 9 рука
+	informatics 10 Phone
+
+hehrmxfuou PMi11
+	fizra 26 PC
+	fizra 83 8 нога
+	informatics 96 Phone
+	informatics 46 3 голова
+	fizra 94 Phone
+	informatics 55 5 нога
+	matan 5 PC
+	informatics 33 6 голова
+
+xaawjjwxep PMa12
+	informatics 61 PC
+	fizra 3 1 рука
+	fizra 31 PC
+	informatics 9 1 голова
+	fizra 39 PC
+	fizra 49 10 нога
+	fizra 23 PC
+
+orbuczqcia PMi11
+	matan 11 PC
+	matan 95 5 рука
+	informatics 62 PC
+	matan 92 1 голова
+	informatics 32 Phone
+	informatics 67 8 голова
+
+eahynacrrb PMa12
+	fizra 99 PC
+	fizra 88 4 рука
+	fizra 97 PC
+	matan 98 7 нога
+	matan 97 Phone
+bxoavxgvkz PMi11
+	informatics 37 PC
+	informatics 99 1 голова
+	fizra 9 Phone
+	informatics 74 2 рука
+	fizra 93 PC
+	fizra 32 3 нога
+	matan 83 Phone
+	informatics 71 10 рука
+	fizra 25 PC
+	fizra 69 6 нога
+nbpekrxejh PMa12
+	matan 8 PC
+	matan 95 10 нога
+	matan 23 Phone
+	informatics 42 5 рука
+	informatics 96 PC
+	matan 50 1 рука
+	matan 51 PC
+	informatics 18 6 голова
+mzbrslqwdh PMi11
+	matan 1 PC
+	informatics 49 7 голова
+	matan 74 Phone
+	informatics 58 5 рука
+	matan 24 PC
+	matan 32 10 нога
+	fizra 17 Phone
+	fizra 72 10 нога
+	fizra 28 Phone
+cptyomcnoy PMa12
+	matan 35 PC
+	informatics 32 2 рука
+	informatics 18 PC
+	matan 30 7 рука
+	fizra 11 Phone
+	matan 18 10 нога
+	informatics 56 PC
+ckgappiqfz PMa12
+	matan 14 Phone
+	fizra 48 7 рука
+	fizra 83 Phone
+	fizra 13 7 голова
+	informatics 86 Phone
+	fizra 36 6 рука
+	informatics 44 PC
+	fizra 28 8 голова
+	informatics 29 Phone
+	matan 6 6 нога
+hvwryefqwz PMa12
+	informatics 86 Phone
+	fizra 19 2 рука
+	fizra 37 PC
+	matan 49 9 рука
+	fizra 7 Phone
+	fizra 62 2 голова
+xcyyxfvill PMi11
+	informatics 26 PC
+	matan 28 7 голова
+	informatics 26 Phone
+	matan 89 6 рука
+	matan 22 PC
+	matan 59 5 голова
+	fizra 19 PC
+oagskrlnur PMi11
+	fizra 45 PC
+	matan 57 3 нога
+	fizra 65 PC
+	fizra 46 8 голова
+	informatics 93 Phone
+	informatics 78 1 рука
+	fizra 12 Phone
+	fizra 19 1 рука
+	fizra 29 Phone
+	fizra 11 1 рука
+efmdoiwsgc PMa12
+	informatics 47 PC
+	informatics 32 3 голова
+	informatics 42 Phone
+	informatics 9 8 голова
+	matan 78 Phone
+	matan 5 1 голова
+	fizra 47 Phone
+	fizra 13 6 голова
+	informatics 40 PC
+rygufacuvl PMi11
+	fizra 71 PC
+	matan 21 6 рука
+	matan 50 Phone
+	informatics 2 5 нога
+	informatics 8 Phone
+	informatics 92 8 рука
+	matan 43 PC
+	matan 75 9 нога
+	fizra 91 Phone
+qjqgxxvswy PMa12
+	fizra 56 Phone
+	informatics 30 5 голова
+	fizra 71 Phone
+	fizra 63 9 голова
+	fizra 77 Phone
+	informatics 20 6 голова
+	informatics 98 PC
+	informatics 7 2 голова
+gkchizgyoj PMi11
+	informatics 91 Phone
+	fizra 11 8 нога
+	informatics 50 Phone
+	matan 25 4 рука
+	matan 82 PC
+	matan 55 3 голова
+	informatics 59 PC
+	informatics 57 5 нога
+znhhnqfwjp PMa12
+	matan 69 Phone
+	fizra 37 6 голова
+	fizra 89 Phone
+	matan 95 2 голова
+	informatics 84 PC
+	informatics 23 7 нога
+	informatics 66 Phone
+	informatics 37 8 голова
+kqfhepyphl PMa12
+	fizra 31 PC
+	fizra 12 9 голова
+	matan 37 Phone
+	fizra 13 1 рука
+	informatics 34 Phone
+pzujtjakli PMi11
+	fizra 92 PC
+	informatics 95 1 нога
+	fizra 29 PC
+	matan 91 4 голова
+	matan 35 PC
+	fizra 49 5 голова
+	informatics 86 Phone
+	fizra 66 6 нога
+	fizra 98 Phone
+xkqigxfmcu PMi11
+	informatics 7 PC
+	fizra 34 10 голова
+	informatics 59 Phone
+	fizra 40 6 рука
+	fizra 38 Phone
+	fizra 20 8 рука
+	fizra 23 PC
+	matan 30 9 голова
+	fizra 96 PC
+svzbynabaz PMi11
+	matan 58 Phone
+	fizra 38 3 рука
+	matan 29 PC
+	fizra 45 2 голова
+	fizra 3 Phone
+	informatics 2 6 рука
+havnnidoks PMi11
+	matan 22 PC
+	fizra 34 6 рука
+	informatics 25 Phone
+	fizra 65 1 рука
+	fizra 56 PC
+ptibfczfwj PMa12
+	matan 11 Phone
+	informatics 66 1 нога
+	matan 65 Phone
+	fizra 23 6 голова
+	informatics 44 Phone
+	informatics 76 1 голова
+	informatics 38 PC
+	fizra 74 2 голова
+	matan 83 Phone
+xmhppjhqvu PMi11
+	informatics 10 PC
+	fizra 71 8 нога
+	matan 43 Phone
+	fizra 39 1 нога
+	matan 5 Phone
+	informatics 7 10 нога
+	informatics 34 Phone
+	fizra 42 10 голова
+	matan 71 Phone
