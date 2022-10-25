@@ -79,11 +79,14 @@ for i in range(len(vsi_sparhalky)):
 for i in vsi_sparhalky:
     print(f"Шпаргалка номер: {i.number}. Предмет: {i.predmet}")
 
+a = 0
 for i in vsi_sparhalky:
     if i.__class__ == Elektronna:
         if i.nosiy == "komp":
             print(i.predmet, i.number, i.nosiy)
+            a += 1
         else:
             pass
     else:
         pass
+print(f"Кількість шпаргалок на носіях комп {a}")
