@@ -1,0 +1,6 @@
+mobil s19 Samsung 8500 black 120Gb
+mobil s20 Samsung 9100 white 500Gb
+mobil s21 Samsung 15250 grey 1Tb
+radio m20 Samsung 10000 1500m yes
+radio m34 Samsung 25000 3100m yes
+radio m55 Samsung 17500 2300m not
