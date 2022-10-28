@@ -1,0 +1,4 @@
+big wood table wood chair 4840
+big wood table steel chair 4880
+medium wood table wood chair 4790
+medium wood table steel chair 4830

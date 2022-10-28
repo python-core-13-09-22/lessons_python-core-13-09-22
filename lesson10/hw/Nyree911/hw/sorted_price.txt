@@ -1,0 +1,11 @@
+Sorted phones with price
+KX_TG25 made by panasonic, price 50, radius 25, selfAnswer No
+KX_TG50A made by panasonic, price 70, radius 50, selfAnswer Yes
+KX_TG75 made by panasonic, price 70, radius 75, selfAnswer No
+KX_TG75A made by panasonic, price 100, radius 75, selfAnswer Yes
+Iphone_13 made by Apple, price 900, color blue, memory 128
+Iphone_12 made by Apple, price 1000, color black, memory 512
+Iphone_14 made by Apple, price 1200, color red, memory 1024
+Phones with self answer
+KX_TG50A made by panasonic, price 70, radius 50, selfAnswer Yes
+KX_TG75A made by panasonic, price 100, radius 75, selfAnswer Yes

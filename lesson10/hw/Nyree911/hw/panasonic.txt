@@ -1,0 +1,4 @@
+KX_TG25 panasonic 50 25 No
+KX_TG50A panasonic 70 50 Yes
+KX_TG75 panasonic 70 75 No
+KX_TG75A panasonic 100 75 Yes

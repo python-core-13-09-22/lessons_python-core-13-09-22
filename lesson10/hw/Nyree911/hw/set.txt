@@ -1,0 +1,10 @@
+big wood 600
+medium wood 550
+small wood 500
+big steel 700
+medium steel 600
+small steel 500
+wood 60
+steel 70
+
+
