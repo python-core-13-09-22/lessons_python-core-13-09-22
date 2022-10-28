@@ -1,0 +1,1 @@
+name=wcrwx,table size=32,table material=wood2,table price=7000,chair material=wood2,chair price2000,quantity=5,17000

@@ -1,0 +1,13 @@
+asha3,Nokia,49,grey,40
+asha1,Nokia,59,black,40
+asha2,Nokia,69,white,50
+ultra2,Samusng,123,blue,200
+deluxe2,Nokia,128,40,False
+deluxe1,Nokia,129,40,False
+ultra3,Samusng,145,green,300
+deluxe3,Nokia,159,69,True
+ultra1,Samusng,198,white,100
+radio1,Samusng,345,200,False
+radio2,Samusng,455,200,True
+radio3,Samusng,545,400,True
+all price:545

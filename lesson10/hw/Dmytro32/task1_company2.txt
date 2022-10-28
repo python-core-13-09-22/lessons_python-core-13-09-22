@@ -1,0 +1,6 @@
+ultra1 Samusng 198 white 100
+ultra2 Samusng 123 blue 200
+ultra3 Samusng 145 green 300
+radio1 Samusng 345 200 False
+radio2 Samusng 455 200 True
+radio3 Samusng 545 400 True

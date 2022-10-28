@@ -1,0 +1,7 @@
+asha1 Nokia 59 black 40
+asha2 Nokia 69 white 50
+asha3 Nokia 49 grey 40
+deluxe1 Nokia 129 40 False
+deluxe2 Nokia 128 40 False
+deluxe3 Nokia 159 69 True
+deluxe4 Nokia 108 True
