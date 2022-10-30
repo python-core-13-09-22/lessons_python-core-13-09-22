@@ -28,7 +28,7 @@ samsung = 'Samsung.txt'
 nokia = 'Nokia.txt'
 new_file = 'new_file.txt'
 ollPhone = []
-
+price_sum = 0
 with open(samsung, 'r') as samsung_file:
     for i in samsung_file:
         i = i.split()
@@ -56,17 +56,35 @@ with open(nokia, 'r') as nokia_file:
 with open(new_file, 'w') as file:
     for i in range(len(ollPhone)):
         for j in range(len(ollPhone)):
-            if ollPhone[i].price > ollPhone[j].price:
+            if int(ollPhone[i].price) < int(ollPhone[j].price):
                 ollPhone[i], ollPhone[j] = ollPhone[j], ollPhone[i]
             else:
                 pass
 
     for a in ollPhone:
+        if a.__class__ == MobilPhone:
+            file.write(f"{a.firm} {a.name}, {a.price}, {a.color}, {a.memory} \n")
+            price_sum = price_sum + int(a.price)
+        elif a.__class__ == RadioPhone:
+            file.write(f"{a.firm} {a.name}, {a.price}, {a.workradius}, {a.autoanswer} \n")
+            price_sum = price_sum + int(a.price)
 
+    file.write(f"\nThe total cost of all phones is: {str(price_sum)}\n")
+
+    file.write("\nRadio telephones with answering machine:\n")
+    for a in ollPhone:
+        if a.__class__ == MobilPhone:
+            pass
+        elif a.__class__ == RadioPhone:
+            if a.autoanswer == 'yes':
+                file.write(f"{a.firm} {a.name}, {a.price}, {a.workradius}, {a.autoanswer} \n")
+            else:
+                pass
 
 
 for i in ollPhone:
-    print(i.name, i.price)
+    print(i.name, i.firm, i.price)
+
 
 
 
