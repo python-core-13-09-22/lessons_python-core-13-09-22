@@ -1,0 +1,10 @@
+150x60 glass 5000.00 
+170x70 wood 8500.00
+leather 2550.00
+leather 2550.00
+wood 1000.00
+wood 1000.00
+wood 1000.00
+velor 1200.00
+velor 1200.00
+velor 1200.00

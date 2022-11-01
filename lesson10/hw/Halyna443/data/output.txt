@@ -1,0 +1,12 @@
+============ Sorted by price ============
+Samsung-S1 Samsung 180.00 250M AM
+Samsung-S2 Samsung 200.00 200M AM
+Samsung-S3 Samsung 320.00 100M NoAM
+iPhone_11 Apple 350.00 White 128Gb
+Samsung-S22 Samsung 452.00 Black 256Gb
+iPhone_13 Apple 500.00 Red 256Gb
+iPhone_13_Pro_Max Apple 999.00 Blue 512Gb
+Total: $ 3001.0
+=== Radiophone with answering_machine ===
+Samsung-S1 Samsung 180.00 250M AM
+Samsung-S2 Samsung 200.00 200M AM

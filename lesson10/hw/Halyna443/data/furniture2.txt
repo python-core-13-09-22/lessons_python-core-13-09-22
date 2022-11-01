@@ -1,0 +1,5 @@
+========== set_of_furnitures ==========
+glfsw 150x60 glass 1
+fcczf 150x60 wood 1
+mbfmy 170x70 wood 3
+ocrcr 150x60 leather 1
