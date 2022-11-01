@@ -40,7 +40,7 @@ with open("Apple.txt") as file:
             break
         data = line.split()
 
-        phones.append(MobilePhone(data[0], data[1], data[2], data[3], data[4]))
+        phones.append(MobilePhone(data[0], data[1], int(data[2]), data[3], data[4]))
 
 with open("panasonic.txt") as file:
     while True:
@@ -49,7 +49,7 @@ with open("panasonic.txt") as file:
             break
         data = line.split()
 
-        phones.append(RadioPhone(data[0], data[1], data[2], data[3], data[4]))
+        phones.append(RadioPhone(data[0], data[1], int(data[2]), data[3], True if data[4] == "Yes" else False))
 
 for i in phones:
     print(i)
@@ -70,7 +70,8 @@ with open("sorted_price.txt", "w+") as file:
 with open("sorted_price.txt", "a+") as file:
     file.write("Phones with self answer\n")
     for i in sorted:
-        if int(i.price) < 200:
+        if type(i) is RadioPhone:
+        # if int(i.price) < 200:
             if i.selfAnswer == "Yes":
                 file.write(str(i))
                 file.write('\n')
@@ -103,7 +104,7 @@ class Chair (object):
 # Визначити тип «Набір меблів», що містить назву, стіл, набір стільців, їх кількість .
 
 
-class Set ():
+class Set:
     def __init__(self, table, setChairs, amount):
         self.table = table
         self.setChairs = setChairs
@@ -111,6 +112,9 @@ class Set ():
 
     def __str__(self):
         return f"{self.table} {self.setChairs} {self.amount}"
+
+    def price(self):
+        return self.table.price + self.setChairs.price*self.amount
 
 # В текстовому файлі задано дані про 10 столів та крісел.  Зчитати ці дані в масиви.
 
@@ -124,10 +128,10 @@ with open("set.txt") as file:
             break
         data = line.split()
         if len(data) == 3:
-            tables.append(Table(data[0], data[1], data[2]))
+            tables.append(Table(data[0], data[1], int(data[2])))
 
         if len(data) == 2:
-            chairs.append(Chair(data[0], data[1]))
+            chairs.append(Chair(data[0], int(data[1])))
 
 # for i in tables:
 #     print (i)
@@ -153,16 +157,20 @@ elif tabSize == '2':
     tabSize = 'medium'
 else:
     tabSize = 'big'
-numbChirs = input("How many chairs to add? ")
+
+numbChirs = int(input("How many chairs to add? "))
 for i in tables:
     for j in chairs:
         if i.material == tabMater:
             if i.size == tabSize:
                 if i.material == j.material:
-                    totalprice += int(i.price)
-                    for _ in range(int(numbChirs)):
-                        totalprice += int(j.price)
-                    sets.append(Set(i, j, numbChirs))
+                    s = Set(i, j, numbChirs)
+                    sets.append(s)
+                    totalprice += s.price()
+                    # totalprice += int(i.price)
+                    # for _ in range(int(numbChirs)):
+                    #     totalprice += int(j.price)
+                    # sets.append(Set(i, j, numbChirs))
 tables.pop(tables.index(i)-1)
 with open('order.txt', 'w+') as f:
     f.write(str(sets[0]))
