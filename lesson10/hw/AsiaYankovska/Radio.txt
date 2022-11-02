@@ -1,0 +1,5 @@
+KX-TG2511UAM, Panasonic, 1700, silver, 10m, no
+KX-TG6811UAM, Panasonic, 2200, black, 20m, yes
+KX-TG2511UAN, Panasonic, 1800, grey, 15m, yes
+KX-TGE510RUS, Panasonic, 2600, grey, 20m, yes
+KX-TGF320UCM, Panasonic, 4500, black, 30m, yes
