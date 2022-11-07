@@ -264,3 +264,27 @@ for row in matrix:
 
 # 15. Змінити послідовність стовпців матриці так, щоб елементи її першого рядка були відсортовані
 # за зростанням.
+
+N = 10
+matrix = []
+for i in range(N):
+    row = []
+    for y in range(N):
+        item = random.randint(0, 100)
+        row.append(item)
+    matrix.append(row)
+print("ORIGIN MATRIX")
+for row in matrix:
+    for element in row:
+        print(element, end="\t")
+    print()
+for i in range(len(matrix[0])):
+    for y in range(len(matrix[0])):
+        if matrix[0][i] < matrix[0][y]:
+            for r in range(len(matrix)):
+                matrix[r][i], matrix[r][y] = matrix[r][y], matrix[r][i]
+print("CHANGED MATRIX")
+for row in matrix:
+    for element in row:
+        print(element, end="\t")
+    print()
