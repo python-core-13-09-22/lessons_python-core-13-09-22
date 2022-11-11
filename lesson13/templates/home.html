@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{%block content%}
+    <div>
+        {% for author in data["authors"]  %}
+        <div>
+            <a href={{ url_for("author_info", id=author.id) }} >
+                {{author.id}} - {{author.name}}
+            </a>
+        </div>
+        {% endfor %}
+
+    </div>
+    <div>
+        {% for book in data["books"]  %}
+        <div>{{book.id}} - {{book.title}} - {{book.description}} - {{book.author}}</div>
+        {% endfor %}
+
+    </div>
+{% endblock %}
