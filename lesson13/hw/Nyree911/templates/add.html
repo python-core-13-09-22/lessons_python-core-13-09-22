@@ -1,11 +1,25 @@
 {% extends "base.html" %}
 {%block content%}
+<br>
+  
 
+<div class="shadow p-3 mb-5 bg-body rounded">
 <form action="{{url_for('add')}}" method="post">
-    <input name="Name of Challenge" class="form-control form-control-lg" type="text" placeholder="Name of challenge" aria-label=".form-control-lg example" />
-    <input name="Description" class="form-control" type="text" placeholder="Description" aria-label="default input example" />
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name of Challenge</label>
+        <input name="Name of Challenge" class="form-control form-control-lg" type="text" placeholder="Name of challenge" aria-label=".form-control-lg example" />
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Description</label>
+        <textarea name="Description" class="form-control" type="text" placeholder="Description" aria-label="default input example" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Deadline</label>
     <input name="Deadline" class="form-control form-control-sm" type="date"  />
-    <button>add</button>
+    </div>  
+    <br>
+    <button class="btn btn-primary" >Add</button>
 </form>
+</div>
 
 {%endblock%}

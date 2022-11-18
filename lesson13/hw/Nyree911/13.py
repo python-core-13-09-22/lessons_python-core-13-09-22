@@ -82,10 +82,44 @@ def add():
         name = request.form["Name of Challenge"]
         description = request.form["Description"]
         deadline = request.form["Deadline"]
-        challenge= Challenge(name=name, description=description, deadline=deadline)
-        db.session.add(challenge)
-        db.session.commit()
-        return redirect(url_for("challenge_info", id=challenge.id))
+        challenge= Challenge(name=name,description=description, deadline=deadline)
+        if name == '' or deadline == '':
+            flash("Whoops! You didn't fill all the lines")
+            return redirect(url_for("add"))
+        else:
+            db.session.add(challenge)
+            db.session.commit()
+            flash("Challenge created successfully!")
+            return redirect(url_for("list"))
+        
+
+
+
+@app.route('/update/<int:id>', methods = ['POST', 'GET'])
+def update(id):
+    challenge_to_update = Challenge.query.get_or_404(id)
+    if request.method == 'POST':
+        challenge_to_update.name = request.form['Name of Challenge']
+        challenge_to_update.description = request.form['Description']
+        challenge_to_update.date = request.form['Deadline']
+        try:
+            if challenge_to_update.name =='' or challenge_to_update.date == '':
+                redirect (url_for("update"))
+            else:
+                db.session.commit()
+                flash("Updated Successfully!")
+                return redirect(url_for("list"))
+        except:
+            flash("Error! Looks like there was a problem, try again")
+            return render_template('update.html',
+                        challenge_to_update=challenge_to_update )
+
+    else:
+        return render_template('update.html',
+                        challenge_to_update=challenge_to_update )
+
+
+
 
 @app.route('/delete/<int:id>')
 def delete(id):
