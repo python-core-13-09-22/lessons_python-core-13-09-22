@@ -1,0 +1,16 @@
+table 4 ash_tree 3000
+table 4 oak 4000
+table 6 beech 3500
+table 4 pine 2000
+table 6 birch 3100
+table 4 ash_tree 2800
+table 2 oak 3700
+table 4 plastic 1800
+table 6 ash_tree 3700
+table 2 plastic 1600
+chair ash_tree 1000
+chair oak 1500
+chair beech 700
+chair pine 500
+chair birch 600
+chair plastic 400

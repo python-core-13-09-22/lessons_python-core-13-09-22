@@ -1,0 +1,4 @@
+radio Samsung_Galaxi_1 150 20m yes 
+radio Samsung_Galaxi_6 300 50m yes 
+radio Nokia_5 350 45 yes 
+radio Nokia_F 440 56 yes 

@@ -1,0 +1,82 @@
+Furniture set 1:
+table of ash_tree for 4 persons,
+chair of ash_tree,
+chair of ash_tree,
+chair of ash_tree,
+chair of ash_tree,
+quantity of chairs: 4
+Furniture set price = 7000
+Furniture set 2:
+table of oak for 4 persons,
+chair of oak,
+chair of oak,
+chair of oak,
+chair of oak,
+quantity of chairs: 4
+Furniture set price = 10000
+Furniture set 3:
+table of beech for 6 persons,
+chair of beech,
+chair of beech,
+chair of beech,
+chair of beech,
+chair of beech,
+chair of beech,
+quantity of chairs: 6
+Furniture set price = 7700
+Furniture set 4:
+table of pine for 4 persons,
+chair of pine,
+chair of pine,
+chair of pine,
+chair of pine,
+quantity of chairs: 4
+Furniture set price = 4000
+Furniture set 5:
+table of birch for 6 persons,
+chair of birch,
+chair of birch,
+chair of birch,
+chair of birch,
+chair of birch,
+chair of birch,
+quantity of chairs: 6
+Furniture set price = 6700
+Furniture set 6:
+table of ash_tree for 4 persons,
+chair of ash_tree,
+chair of ash_tree,
+chair of ash_tree,
+chair of ash_tree,
+quantity of chairs: 4
+Furniture set price = 6800
+Furniture set 7:
+table of oak for 2 persons,
+chair of oak,
+chair of oak,
+quantity of chairs: 2
+Furniture set price = 6700
+Furniture set 8:
+table of plastic for 4 persons,
+chair of plastic,
+chair of plastic,
+chair of plastic,
+chair of plastic,
+quantity of chairs: 4
+Furniture set price = 3400
+Furniture set 9:
+table of ash_tree for 6 persons,
+chair of ash_tree,
+chair of ash_tree,
+chair of ash_tree,
+chair of ash_tree,
+chair of ash_tree,
+chair of ash_tree,
+quantity of chairs: 6
+Furniture set price = 9700
+Furniture set 10:
+table of plastic for 2 persons,
+chair of plastic,
+chair of plastic,
+quantity of chairs: 2
+Furniture set price = 2400
