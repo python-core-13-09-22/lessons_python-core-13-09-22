@@ -1,0 +1,9 @@
+name=kkeub,table size=64,table material=wood1,table price=8000,chair material=wood1,chair price1000,quantity=2
+name=gigzs,table size=56,table material=wood3,table price=6000,chair material=wood3,chair price9000,quantity=3
+name=coozh,table size=34,table material=wood4,table price=3000,chair material=wood4,chair price8000,quantity=4
+name=geztf,table size=12,table material=wood5,table price=2000,chair material=wood5,chair price7000,quantity=2
+name=lkkqz,table size=65,table material=wood6,table price=3000,chair material=wood6,chair price1000,quantity=2
+name=bhjvr,table size=56,table material=wood7,table price=6000,chair material=wood7,chair price2000,quantity=4
+name=ujvxy,table size=98,table material=wood8,table price=4000,chair material=wood8,chair price3000,quantity=2
+name=qxwns,table size=53,table material=wood9,table price=3000,chair material=wood9,chair price4000,quantity=2
+name=ausai,table size=24,table material=wood10,table price=2000,chair material=wood10,chair price5000,quantity=4

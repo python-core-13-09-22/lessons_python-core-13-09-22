@@ -1,0 +1,20 @@
+64 wood1 8000 
+32 wood2 7000 
+56 wood3 6000 
+34 wood4 3000 
+12 wood5 2000 
+65 wood6 3000 
+56 wood7 6000 
+98 wood8 4000 
+53 wood9 3000 
+24 wood10 2000 
+wood1 1000
+wood2 2000
+wood3 9000
+wood4 8000
+wood5 7000
+wood6 1000
+wood7 2000
+wood8 3000
+wood9 4000
+wood10 5000
