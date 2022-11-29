@@ -1,0 +1,10 @@
+big, wood, 2000
+medium, steel, 1500
+small, glass, 1000
+big, steel, 2500
+medium, wood, 1700
+small, wood, 1200
+medium, glass, 1600
+wood, 800
+steel, 700
+plastik, 500

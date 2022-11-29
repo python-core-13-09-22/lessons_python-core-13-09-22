@@ -1,0 +1,5 @@
+Galaxy M32, Samsung, 8500, black, 128Gb
+S21 FE, Samsung, 25000, lavander, 128Gb
+Galaxy S22 Ultra, Samsung, 55000, blue, 512Gb
+Galaxy A33, Samsung, 13000, pink, 128Gb
+Galaxy A32, Samsung, 9500, red, 64Gb
