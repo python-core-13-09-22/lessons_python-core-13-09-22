@@ -74,7 +74,7 @@ if __name__ == "__main__":
         students.append(student)
     chits = []
 
-    with open("..lesson10/data/students.txt",mode="a+", encoding='utf-8') as file:
+    with open("../lesson10/data/students.txt",mode="a+", encoding='utf-8') as file:
 
         for student in students:
             print(student)

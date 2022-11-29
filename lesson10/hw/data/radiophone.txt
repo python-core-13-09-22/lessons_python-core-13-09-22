@@ -1,3 +1,0 @@
-Samsung-S3 Samsung 320.00 100M No
-Samsung-S2 Samsung 200.00 200M Yes
-Samsung-S1 Samsung 180.00 250M Yes 
