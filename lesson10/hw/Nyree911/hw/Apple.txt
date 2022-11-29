@@ -1,0 +1,3 @@
+Iphone_12 Apple 1000 black 512
+Iphone_13 Apple 900 blue 128
+Iphone_14 Apple 1200 red 1024 
