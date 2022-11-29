@@ -1,0 +1,7 @@
+
+Your order:
+Table: material - dub, dimensions - 50x150, price for 10 cm. - 32,  the price of the table - 24000.0
+Chairs: material - dub, price for 1 - 650, total price - 3250   
+
+Total cost of the order: 27250.0
+ 

@@ -1,0 +1,6 @@
+mobil n67 Nokia 6560 green 120Gb
+mobil n76 Nokia 3154 white 500Gb
+mobil t100 Nokia 17280 grey 1Tb
+radio t120 Nokia 9000 900m not
+radio g34 Nokia 16540 2150m yes
+radio h55 Nokia 6560 700m not

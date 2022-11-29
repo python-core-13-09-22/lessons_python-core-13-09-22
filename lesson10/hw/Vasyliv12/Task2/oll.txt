@@ -1,0 +1,10 @@
+table dub 32
+table osyka 27
+table sosna 25
+table DSP 12
+table plastik 5
+chair dub 650
+chair osyka 530
+chair sosna 480
+chair DSP 350
+chair plastik 230

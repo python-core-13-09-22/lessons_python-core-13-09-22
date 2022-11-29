@@ -1,0 +1,19 @@
+Nokia n76, 3154, white, 500Gb 
+Nokia n67, 6560, green, 120Gb 
+Nokia h55, 6560, 700m, not 
+Samsung s19, 8500, black, 120Gb 
+Nokia t120, 9000, 900m, not 
+Samsung s20, 9100, white, 500Gb 
+Samsung m20, 10000, 1500m, yes 
+Samsung s21, 15250, grey, 1Tb 
+Nokia g34, 16540, 2150m, yes 
+Nokia t100, 17280, grey, 1Tb 
+Samsung m55, 17500, 2300m, not 
+Samsung m34, 25000, 3100m, yes 
+
+The total cost of all phones is: 144444
+
+Radio telephones with answering machine:
+Samsung m20, 10000, 1500m, yes 
+Nokia g34, 16540, 2150m, yes 
+Samsung m34, 25000, 3100m, yes 
