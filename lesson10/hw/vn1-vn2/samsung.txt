@@ -1,0 +1,10 @@
+mobile Samsung_Galaxi_1 50 black 10
+mobile Samsung_Galaxi_2 80 red 30
+mobile Samsung_Galaxi_3 100 blue 60
+mobile Samsung_Galaxi_6A 250 black 110
+mobile Samsung_Galaxi_8 500 black 150
+radio Samsung_Galaxi_1 150 20m yes
+radio Samsung_Galaxi_5 250 30m no
+radio Samsung_Galaxi_6 300 50m yes
+mobile Samsung_Galaxi_10A 550 black 150
+mobile Samsung_Galaxi_10A 600 red 150

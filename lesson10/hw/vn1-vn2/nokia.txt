@@ -1,0 +1,10 @@
+mobile Nokia_1 50 black 10
+radio Nokia_4 50 25 no
+mobile Nokia_5 150 yellow 100
+mobile Nokia_6 250 green 150
+radio Nokia_5 350 45 yes
+mobile Nokia_10 350 black 100
+radio Nokia_F 440 56 yes
+mobile Nokia_11 530 black 175
+radio Nokia_FM 550 60 no
+mobile Nokia_A 550 grey 100
